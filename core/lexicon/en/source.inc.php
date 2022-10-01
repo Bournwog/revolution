@@ -95,6 +95,20 @@ $_lang['prop_ftp.passive_desc'] = 'Enable or disable passive ftp mode';
 $_lang['prop_ftp.ssl_desc'] = 'Enable or disable ssl connection';
 $_lang['prop_ftp.timeout_desc'] = 'Timeout for connection in seconds.';
 
+/* sftp source type */
+$_lang['prop_sftp.host_desc'] = 'Server hostname or IP address';
+$_lang['prop_sftp.username_desc'] = 'Username for authentication.';
+$_lang['prop_sftp.password_desc'] = 'Password of user.';
+$_lang['prop_sftp.privateKey_desc'] = 'Private key of user.';
+$_lang['prop_sftp.passphrase_desc'] = 'Passphrase of private key. Leave empty for key without passphrase.';
+$_lang['prop_sftp.url_desc'] = 'If this SFTP is has a public URL, you can enter its public http-address here. This will also enable image previews in the media browser.';
+$_lang['prop_sftp.port_desc'] = 'Port of the server, default is 22.';
+$_lang['prop_sftp.root_desc'] = 'The root folder, it will be opened after connection';
+$_lang['prop_sftp.useAgent_desc'] = 'Enable or disable SSH agent for connection.';
+$_lang['prop_sftp.timeout_desc'] = 'Timeout for connection in seconds.';
+$_lang['prop_sftp.maxTries_desc'] = 'Max tries for connection.';
+$_lang['prop_sftp.hostFingerprint_desc'] = 'Host fingerprint validation.';
+
 /* file type */
 $_lang['PNG'] = 'PNG';
 $_lang['JPG'] = 'JPG';
