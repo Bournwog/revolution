@@ -95,6 +95,20 @@ $_lang['prop_ftp.passive_desc'] = 'Включить или отключить п
 $_lang['prop_ftp.ssl_desc'] = 'Включить или отключить SSL-соединение';
 $_lang['prop_ftp.timeout_desc'] = 'Время ожидания соединения в секундах.';
 
+/* sftp source type */
+$_lang['prop_sftp.host_desc'] = 'Хост или IP-адрес сервера';
+$_lang['prop_sftp.username_desc'] = 'Имя пользователя для соединения.';
+$_lang['prop_sftp.password_desc'] = 'Пароль пользователя.';
+$_lang['prop_sftp.privateKey_desc'] = 'Приватный ключ.';
+$_lang['prop_sftp.passphrase_desc'] = 'Кодовая фраза для приватного ключа. Оставьте пустым если не ключ не защищен кодовой фразой.';
+$_lang['prop_sftp.url_desc'] = 'Если у SFTP-сервера есть публичный URL, вы можете указать его здесь. В таком случае, в менеджере файлов будут доступны превью изображений.';
+$_lang['prop_sftp.port_desc'] = 'Порт для подключения. По умолчанию — 22.';
+$_lang['prop_sftp.root_desc'] = 'Корневой каталог. Он будет открыт после соединения';
+$_lang['prop_sftp.useAgent_desc'] = 'Использовать SSH агента для подключения.';
+$_lang['prop_sftp.timeout_desc'] = 'Время ожидания соединения в секундах.';
+$_lang['prop_sftp.maxTries_desc'] = 'Максимальное количество попыток соединения.';
+$_lang['prop_sftp.hostFingerprint_desc'] = 'Отпечаток хоста для валидации.';
+
 /* file type */
 $_lang['PNG'] = 'PNG';
 $_lang['JPG'] = 'JPG';
