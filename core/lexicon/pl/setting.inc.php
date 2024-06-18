@@ -611,6 +611,9 @@ $_lang['setting_publish_default'] = 'Published default';
 $_lang['setting_publish_default_desc'] = 'Wybierz \'Tak\', aby wszystkie nowe zasoby były domyślnie publikowane.';
 $_lang['setting_publish_default_err'] = 'Please state whether or not you want documents to be published by default.';
 
+$_lang['setting_quick_search_result_max'] = 'Number of items in search result';
+$_lang['setting_quick_search_result_max_desc'] = 'Maximum number of elements for each type (resource, template, chunk, etc.) in the quick search result.';
+
 $_lang['setting_rb_base_dir'] = 'Ścieżka zasobu';
 $_lang['setting_rb_base_dir_desc'] = 'Enter the physical path to the resource directory. This setting is usually automatically generated. If you\'re using IIS, however, MODX may not be able to work the path out on its own, causing the Resource Browser to show an error. In that case, you can enter the path to the images directory here (the path as you\'d see it in Windows Explorer). <strong>NOTE:</strong> The resource directory must contain the subfolders images, files, flash and media in order for the resource browser to function correctly.';
 $_lang['setting_rb_base_dir_err'] = 'Please state the resource browser base directory.';
